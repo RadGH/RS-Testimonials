@@ -20,8 +20,8 @@ Display testimonials on your site and optionally allow visitors to write testimo
 
 1. Upload the plugin files to `/wp-content/plugins/rs-testimonials/`, or through WordPress.
 2. Activate the plugin under the "Plugins" menu within the dashboard.
-3. Configure the plugin within Testimonials > Settings.
-4. Add or edit testimonials under the Testimonials menu.
+3. Add or edit testimonials under the Testimonials menu.
+4. Use the shortcode `[rs_testimonial_form]` to allow users to leave a testimonial.
 
 ## Frequently Asked Questions ##
 
