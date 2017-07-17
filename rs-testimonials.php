@@ -9,9 +9,6 @@
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  *
- * Domain Path: /languages
- * Text Domain: rs-ssi
- *
  * Requires at least: 3.8
  * Tested up to: 4.8
  */
