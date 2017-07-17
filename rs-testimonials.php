@@ -19,11 +19,11 @@
 if ( !defined( 'ABSPATH' ) ) exit; // Do not allow direct access
 
 /**
- * Main plugin class for the Expert City Memberships plugin.
- * @class EC_Memberships
+ * Main plugin class for the RS Testimonials plugin.
+ * @class RS_Testimonials
  */
-if ( !class_exists( 'EC_Memberships' ) ) {
-	class EC_Memberships
+if ( !class_exists( 'RS_Testimonials' ) ) {
+	class RS_Testimonials
 	{
 		// Plugin settings
 		public $version = '1.0.0';
@@ -32,7 +32,7 @@ if ( !class_exists( 'EC_Memberships' ) ) {
 		public $plugin_basename = null;
 		
 		/**
-		 * EC_Memberships constructor
+		 * RS_Testimonials constructor
 		 */
 		public function __construct() {
 			$this->plugin_dir = untrailingslashit( plugin_dir_path( __FILE__ ) );
@@ -47,15 +47,13 @@ if ( !class_exists( 'EC_Memberships' ) ) {
 		 * Initializes the rest of our plugin
 		 */
 		public function setup_plugin() {
-			include( $this->plugin_dir . '/includes/expert-category.php' );
-			include( $this->plugin_dir . '/includes/prelaunch.php' );
-			include( $this->plugin_dir . '/includes/thankyou.php' );
-			include( $this->plugin_dir . '/includes/membership-introduction.php' );
-			include( $this->plugin_dir . '/includes/general.php' );
+			include( $this->plugin_dir . '/includes/testimonials.php' );
+			include( $this->plugin_dir . '/includes/shortcode.php' );
+			include( $this->plugin_dir . '/includes/enqueue.php' );
 		}
 	}
 }
 
-// Create our plugin object, accessible via the global variable $rs_ssi.
-global $ec_memberships;
-$ec_memberships = new EC_Memberships();
+// Create our plugin object, accessible via a global variable.
+global $RS_Testimonials;
+$RS_Testimonials = new RS_Testimonials();
