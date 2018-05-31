@@ -18,6 +18,12 @@
 	top: 0;
 	bottom: 0;
 	transform: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.rs-testimonial-slider .flickity-button .flickity-button-icon {
+	width: 100%;
 }
 
 .rs-testimonial-slider .flickity-prev-next-button.next {

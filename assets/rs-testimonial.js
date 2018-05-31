@@ -12,10 +12,10 @@ function rs_testimonial_init_slider() {
 		contain: true,
 		pageDots: false,
 		arrowShape: {
-			x0: 10,
-			x1: 80, y1: 50,
-			x2: 80, y2: 40,
-			x3: 25
+			x0: 15,
+			x1: 70, y1: 50,
+			x2: 70, y2: 42.5,
+			x3: 22.5
 		},
 		wrapAround: true,
 		adaptiveHeight: true
