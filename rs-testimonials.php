@@ -3,7 +3,7 @@
  * Plugin Name: RS Testimonials
  * Plugin URI: http://radleysustaire.com/
  * Description: Display testimonials on your site and optionally allow visitors to write testimonials.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Radley Sustaire
  * Author URI: http://radleysustaire.com/
  * License: GPLv3
