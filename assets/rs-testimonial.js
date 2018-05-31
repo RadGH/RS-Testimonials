@@ -17,7 +17,8 @@ function rs_testimonial_init_slider() {
 			x2: 80, y2: 40,
 			x3: 25
 		},
-		wrapAround: true
+		wrapAround: true,
+		adaptiveHeight: true
 	});
 }
 
