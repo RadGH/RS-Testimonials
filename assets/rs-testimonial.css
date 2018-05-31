@@ -27,3 +27,36 @@
 .rs-testimonial-slider .flickity-prev-next-button.previous {
 	left: 0;
 }
+
+@media ( min-width: 901px ) {
+	.rs-testimonial-slider .-photo {
+		position: relative;
+		float: left;
+		width: 140px;
+		height: 140px;
+		border-radius: 100%;
+		overflow: hidden;
+		margin-right: 75px;
+	}
+
+	.rs-testimonial-slider .-photo img {
+		width: 100%;
+		height: auto;
+	}
+
+	.rs-testimonial-slider .-content {
+		overflow: hidden;
+	}
+}
+
+@media ( max-width: 900px ) {
+	.rs-testimonial-slider .-photo {
+		margin: 0 0 20px;
+		text-align: center;
+	}
+
+	.rs-testimonial-slider .-photo img {
+		max-width: 300px;
+		height: auto;
+	}
+}
