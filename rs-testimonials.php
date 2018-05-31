@@ -45,7 +45,8 @@ if ( !class_exists( 'RS_Testimonials' ) ) {
 		 */
 		public function setup_plugin() {
 			include( $this->plugin_dir . '/includes/testimonials.php' );
-			include( $this->plugin_dir . '/includes/shortcode.php' );
+			include( $this->plugin_dir . '/includes/testimonial-form.php' );
+			include( $this->plugin_dir . '/includes/testimonial-slider.php' );
 			include( $this->plugin_dir . '/includes/enqueue.php' );
 		}
 	}

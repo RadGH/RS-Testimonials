@@ -1,0 +1,29 @@
+.rs-testimonial-slider .-item-inner {
+	max-width: 820px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.rs-testimonial-slider .rs-testimonial {
+	width: 100%;
+}
+
+.rs-testimonial-slider .flickity-button {
+	padding: 0;
+	border: none;
+	min-width: 0;
+	background: none;
+
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	transform: none;
+}
+
+.rs-testimonial-slider .flickity-prev-next-button.next {
+	right: 0;
+}
+
+.rs-testimonial-slider .flickity-prev-next-button.previous {
+	left: 0;
+}
