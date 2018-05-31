@@ -23,7 +23,7 @@ if ( !class_exists( 'RS_Testimonials' ) ) {
 	class RS_Testimonials
 	{
 		// Plugin settings
-		public $version = '1.0.0';
+		public $version = '1.0.1';
 		public $plugin_dir = null;
 		public $plugin_url = null;
 		public $plugin_basename = null;
